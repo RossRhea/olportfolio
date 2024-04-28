@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+		<meta name="description" content="This is a portfolio website for Ross, a computer programming student at St Paul College" />
+        <title>Ross's Portfolio :: Index</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <img src="images/rc_logo.png" alt="logo" height="150" width="666" class="img-fluid logo">
+        </header>
+
+        <nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="game.html">Game</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+			</ul>
+        </nav>
+
+        <div id="home-hero">
+            <h1>Welcome to my personal portfolio!</h1>
+        </div>
+
+        <main>
+
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+
+            
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <p>
+                            My name is Ross and I study Web Design and Web Programming at Saint Paul College in St. Paul, Minnesota. 
+                            My planned graduation date is May 2025 with a computer programming AAS. I made this website as a portfolio of my skills developing websites.<br><br>
+                            I have taken the following classes at Saint Paul College:
+                        </p>
+            
+                        <ul>
+                            <li>Web Fundamentals: I learned HTML and CSS skills to make this website!</li>
+                            <li>Computer Science and Information</li>
+                            <li>Introduction to Computing and Computer Science</li>
+                        </ul>
+            
+                        <p>
+                            The next class I will be taking is Java I over the summer semester. In fall I will be pursuing  16 credits in computer programming, including Database Management and Client Side Networking.
+                            My major emphasis will be on the Java Language. Once I graduate I may continue my education by obtaining a bachelors degree. <br><br>
+                            When I'm not writing code I enjoy skiing in the winter, sailing and tennis in the summer, and board games any season.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <img class="skyline" src="images/msp_skyline.jpg" alt="Minneapolis Skyline" width="431" height="600">
+                        <div class="pic-foot">
+                            <small>A picture of the Minneapolis downtown area at twilight.</small>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="fa-index">
+                            <i class="fa fa-pencil-square" aria-hidden="true"></i>
+                            <p>Here is a link to my current resume.<br><br><br><a href="resume.html">Resume</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="fa-index">
+                            <i class="fa fa-gamepad" aria-hidden="true"></i>
+                            <p>Here is a page with a Flappy Bird clone made with javascript.<br><br><a href="game.html">Play</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="fa-index">
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                            <p>Here is a link to check out other websites I've made.<br><br><a href="portfolio.html">Portfolio</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery">
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>Pictures of Me!</h2>
+                            <div class="preview">
+                                <img id="preview" src="images/rc_shmovin.jpg" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+                        <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/rc_shmovin.jpg" alt="Ross lighting up the dance floor" />
+                        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/rc_coop.jpg" alt="Ross holding up his dog Cooper"  />
+                        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/rc_ski.jpg" alt="Ross at the moutain peak of Big Sky, Montana" />
+                        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/rc_suit.jpg" alt="Ross looking sharp in a suit" />
+                    </div>
+                    
+                </div>
+
+
+            </div>
+
+        </main>
+
+        <footer>
+
+            <div class="foot-col">
+                <div class="row">
+                    <div class="col-sm-6">
+
+                        <h3>Personal Portfolio Project</h3>
+                        <p class="foot-p">
+                            This website is a portfolio project to showcase the different skill I learned in HTML/CSS while attending St Paul College. 
+                            The images are royalty-free photos from pixabay.com. JavaScript was used to make the game, and Bootstrap columns for responsive layout.
+                        </p>
+
+                    </div>
+
+                    <div class="col-sm-6">
+
+                        <h3>Connect with me!</h3>
+                        <ul class="foot-list">
+                            <div class="foot-links">
+                                <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin-square" aria-hidden="true"></i></i>    Check me out on LinkedIn</a></li>
+                                <li><a href="mailto:r.frederick10@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>    Emal Me!</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-foot">
+                <small>&copy; Ross Churchill. All rights reserved</small> 
+            </div>
+            
+        </footer>
+
+
+        <!--jQuery, Popper, and Bootstrap Javascript files-->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>

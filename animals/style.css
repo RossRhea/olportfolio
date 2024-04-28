@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body {
+	font-family: 'roboto-mono', sans-serif;
+	background-color: #37392E;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	font-family: 'montserrat', sans-serif;
+	padding: 15px;
+}
+
+h3 {
+	text-align: left;
+	padding-left: 0;
+}
+
+header {
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	background-color: #19647E;
+	border-top: 2px #dcc177 solid;
+	border-bottom: 2px #dcc177 solid;
+	padding: 5px;
+}
+
+main{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+footer{
+	color: white;
+	background-color: #19647E;
+	text-align: center;
+	border-top: 2px #dcc177 solid;
+}
+
+nav ul{
+	padding-top: 15px;
+	font-size: 1.2em;
+	font-weight: bold;
+	list-style-type: none;
+	text-align: center;
+	
+}
+nav li{
+	display: inline;
+	margin: 50px;
+}
+nav a{
+	padding-right: 10px;
+}
+nav a:link{
+	color: white;
+	text-decoration: none;
+}
+nav a:visited{
+	color: white;
+	text-decoration: none;
+}
+nav a:hover{
+	color: #dcc177;
+	text-decoration: none;
+}
+nav a:active{
+	color: white;
+	text-decoration: none;
+}
+
+blockquote {
+	margin-top: 10px;
+	background-color: #DDCECD;
+	padding: 15px;
+	border: 5px #19647E solid;
+}
+
+ul.foot-list{
+	font-size: 1.2em;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.foot-links a:link{
+	color: white;
+	text-decoration: none;
+}
+
+.foot-links a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+.foot-links a:hover{
+	color: #dcc177;
+	text-decoration: none;
+}
+
+.foot-links a:active{
+	color: white;
+	text-decoration: none;
+}
+
+.foot-col{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+p.foot-p{
+	text-align: left;
+}
+
+.hero-img {
+	margin-top: 10px;
+}
+
+.fa-cam {
+	font-size: 5em;
+	color: #DDCECD;
+}
+
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.sub-foot {
+	border-top: 2px #dcc177 solid;
+	height: 15px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color:#37392E;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+	text-align: center;
+	font-size: 3.5em;
+	color: white;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+
